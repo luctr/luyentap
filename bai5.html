@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gọi Chòm Sao</title>
+</head>
+<body>
+    <script>
+        let a= ["Polaris", "Aldebaran", "Deneb", "Vega"," Altair "," Dubhe", "Regulus"]
+        let b= ["Ursa Minor", "Tarurus", "Cygnus", "Lyra"," Aquila "," Ursa Major", "Leo"]
+        let check=false;
+        let c=prompt("mời bạn nhập sao")
+       function get(){
+            for (let i=0;i<a.length;i++){
+                if(a[i]==c){
+                    alert("chòm sao của bạn là " + b[i])
+                    check=true;
+                   }
+                }if (!check){
+                    alert("không tìm thấy")
+
+                }
+        }get()
+    </script>
+</body>
+</html>
